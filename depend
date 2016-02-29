@@ -1,0 +1,10 @@
+color.cmo :
+color.cmx :
+fact.cmo :
+fact.cmx :
+coef_bino.cmo :
+coef_bino.cmx :
+do_graph.cmo : fact.cmo coef_bino.cmo
+do_graph.cmx : fact.cmx coef_bino.cmx
+main.cmo : do_graph.cmo coef_bino.cmo
+main.cmx : do_graph.cmx coef_bino.cmx
